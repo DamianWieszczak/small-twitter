@@ -1,0 +1,2 @@
+class Twett < ApplicationRecord
+end
