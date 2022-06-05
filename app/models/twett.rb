@@ -1,2 +1,0 @@
-class Twett < ApplicationRecord
-end
