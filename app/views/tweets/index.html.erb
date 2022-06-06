@@ -1,8 +1,12 @@
 <section class="section">
     <div class="columns">
-      <%= render "popular" %>
-      <%= render "content" %>
-      <%= render "someone-to-follow" %>
+      <% if user_signed_in? %>
+        <%= render "profile" %>
+      <% else %>
+        <%= render "popular" %>
+      <% end %>
+        <%= render "content" %>
+        <%= render "someone-to-follow" %>
     </div>
 </section>
 

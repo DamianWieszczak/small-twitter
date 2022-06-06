@@ -12,19 +12,7 @@
 
   <body>
     <%= render "layouts/navigation" %>
-    <% if flash[:notice] %>
-      <div class="notification is-success global-notification">
-      <button class="delete"></button>
-        <p class="notice"><%= notice %></p>
-      </div>
-    <% end %>
-    <% if flash[:alert] %>
-    <div class="notification is-danger global-notification">
-    <button class="delete"></button>
-      <p class="alert"><%= alert %></p>
-    </div>
-    <% end %>
-    
+    <%= render "layouts/messages" %>    
     <%= yield %>
   </body>
 </html>
