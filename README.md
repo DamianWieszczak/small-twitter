@@ -1,24 +1,15 @@
-# README
+# Small-Twitter
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<p>
+A small application based on one of the most popular social media in the world. Created for self-study by observing the various materials available on the web. This application uses gems such as:
+<br>
+- Bulma - other CSS framework - try something new to get a comparison with Bootstrap
+<br>
+- Simple-form
+<br>
+- Better-errors
+<br>
+- Gravatar_image_tag
+<br>
+- Font-awesome-rails
+</p>
