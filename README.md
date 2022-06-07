@@ -13,3 +13,9 @@ A small application based on one of the most popular social media in the world. 
 <br>
 - Font-awesome-rails
 </p>
+
+<p>
+Ruby version: 2.7.6
+<br>
+Rails version: 6.1.6
+</p>
